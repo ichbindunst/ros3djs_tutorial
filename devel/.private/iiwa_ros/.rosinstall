@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yao/ros3djs_tutorial/devel/.private/iiwa_ros/setup.sh

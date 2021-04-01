@@ -1,0 +1,12 @@
+<launch>
+  
+  <!-- upload information to server-->
+  <include file="$(find iiwa_description)/launch/iiwa7_upload.launch" />
+  <!-- this next node sends asimov urdf to param server -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+  <param name="use_gui" type="bool" value="true" />  
+  <!-- this next node gives control over the joints -->
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+  <node name="tf2_web_republisher" pkg="tf2_web_republisher" type="tf2_web_republisher" />
+</launch>
+

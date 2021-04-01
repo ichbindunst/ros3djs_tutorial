@@ -1,0 +1,1 @@
+/home/yao/ros3djs_tutorial/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg

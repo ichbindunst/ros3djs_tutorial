@@ -1,0 +1,5 @@
+Symlinking /home/yao/ros3djs_tutorial/devel/share/iiwa_ros/cmake/iiwa_rosConfig-version.cmake
+Symlinking /home/yao/ros3djs_tutorial/devel/share/iiwa_ros/cmake/iiwa_rosConfig.cmake
+Symlinking /home/yao/ros3djs_tutorial/devel/lib/libiiwa_ros.so
+Symlinking /home/yao/ros3djs_tutorial/devel/lib/pkgconfig/iiwa_ros.pc
+Symlinking /home/yao/ros3djs_tutorial/devel/lib/iiwa_ros/iiwa_ros_test
